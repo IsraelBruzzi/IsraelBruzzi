@@ -1,0 +1,17 @@
+
+ largura, comprimento, metroQuadrado, area, preco : real
+
+
+escreva ("Digite a largura do terreno: ")
+  leia (largura)
+  escreva ("Digite o comprimento do terreno: ")
+  leia(comprimento)
+  escreva ("Digite o valor do metro quadrado: ")
+  leia(metroQuadrado)
+  escreval
+   area <- largura*comprimento
+  escreval ("Area do terreno = ",area:5:2)
+  escreval
+   preco <- (area * metroQuadrado)
+  escreval ("Preco do terreno = ",preco:5:2)
+
